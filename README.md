@@ -1,2 +1,2 @@
 # aws-serverless-api  
-![AWS Serverless Architecture](https://github.com/DhayalanJazz/aws-serverless-api/main/AWS Serverless Architecture.png?raw=true)
+![AWS Serverless Architecture](https://github.com/DhayalanJazz/aws-serverless-api/blob/main/AWS%20Serverless%20Architecture.png)
