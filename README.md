@@ -83,3 +83,8 @@ Step 3:Create a role with the following properties.
 ]
 }
 ```
+### Create Lambda Function
+
+**To create the Function**
+ 1. Click "Create function" in AWS Lambda Console
+    
