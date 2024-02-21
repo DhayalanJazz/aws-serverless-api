@@ -1,7 +1,7 @@
 # aws-serverless-api  
 This Project consists of a microservice architecture leveraging AWS Services such as API Gateway to create an API backed by a lambda function, dynamo DB as a database and CloudWatch for Real-time logging for monitoring and optimization.
 
-![AWS Serverless Architecture](https://github.com/DhayalanJazz/aws-serverless-api/blob/main/AWS%20Serverless%20Architecture.png)
+![AWS Serverless Architecture](https://github.com/DhayalanJazz/aws-serverless-api/images/blob/main/AWS%20Serverless%20Architecture.png)
 A resource is created and a method(POST) is defined and a method is backed by Lambda function and when the API is called through an HTTPS endpoint, Amazon API Gateway invokes the Lambda function.
 
 The POST method on the DynamoDBManager resource supports the following DynamoDB operations:
