@@ -132,4 +132,4 @@ def lambda_handler(event, context):
     else:
         raise ValueError('Unrecognized operation "{}"'.format(operation))
  ```
-    
+![Lambda Function Code](https://github.com/DhayalanJazz/aws-serverless-api/blob/main/images/Lambda%20function%20code.png) 
