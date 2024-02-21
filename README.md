@@ -133,3 +133,8 @@ def lambda_handler(event, context):
         raise ValueError('Unrecognized operation "{}"'.format(operation))
  ```
 ![Lambda Function Code](https://github.com/DhayalanJazz/aws-serverless-api/blob/main/images/Lambda%20function%20code.png) 
+**Test Lambda Function**
+Let's test our newly created function. We haven't created DynamoDB and the API yet, so we'll do a sample echo operation. The function should output whatever input we pass.
+
+ 1. Click the arrow on "Select a test event" and click "Configure test events"
+ 
