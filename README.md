@@ -28,7 +28,7 @@ The following is a sample request payload for a DynamoDB create item operation:
 ```
 
 The following is a sample request payload for a DynamoDB read item operation:
-```
+```json
 {
     "operation": "read",
     "tableName": "lambda-apigateway",
