@@ -87,4 +87,5 @@ Step 3:Create a role with the following properties.
 
 **To create the Function**
  1. Click "Create function" in AWS Lambda Console
+    ![Create function](https://github.com/DhayalanJazz/aws-serverless-api/blob/main/images/Create%20a%20function.png)
     
