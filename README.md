@@ -87,11 +87,13 @@ Step 3:Create a role with the following properties.
 
 **To create the Function**
  1. Click "Create function" in AWS Lambda Console
+    
     ![Create function](https://github.com/DhayalanJazz/aws-serverless-api/blob/main/images/Create%20a%20function.png)
- 2. Select "Author from scratch". Use name LambdaFunctionOverHttps , select Python 3.7 as Runtime. Under Permissions, select "Use an existing role", and select lambda-apigateway-role that we created, from the drop down
- 3. Click "Create function"
+ 3. Select "Author from scratch". Use name LambdaFunctionOverHttps , select Python 3.7 as Runtime. Under Permissions, select "Use an existing role", and select lambda-apigateway-role that we created, from the drop down
+ 4. Click "Create function"
+    
     ![Lambda function setup](https://github.com/DhayalanJazz/aws-serverless-api/blob/main/images/Lambda%20Function%20Setup.png)
- 4. Replace the boilerplate coding with the following code snippet and click "Save"
+ 5. Replace the boilerplate coding with the following code snippet and click "Save"
  ```
 from __future__ import print_function
 
