@@ -53,7 +53,7 @@ Step 3:Create a role with the following properties.
   * Trusted entity – Lambda.
   * Role name – lambda-apigateway-role.
   * Permissions – Custom policy with permission to DynamoDB and CloudWatch Logs. This custom policy has the permissions that the function needs to write data to DynamoDB and upload logs.
-```
+```json
 {
 "Version": "2012-10-17",
 "Statement": [
@@ -94,7 +94,7 @@ Step 3:Create a role with the following properties.
     
     ![Lambda function setup](./images/Lambda%20Function%20Setup.png)
  5. Replace the boilerplate coding with the following code snippet and click "Save"
- ```
+ ```json
  from __future__ import print_function
 
  import boto3
