@@ -14,14 +14,14 @@ The request payload you send in the POST request identifies the DynamoDB operati
 
 The following is a sample request payload for a DynamoDB create item operation:
 
-```
+```json
 {
     "operation": "create",
     "tableName": "lambda-apigateway",
     "payload": {
         "Item": {
             "id": "1",
-            "name": "Max"
+            "name": "Bob"
         }
     }
 }
