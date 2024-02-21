@@ -53,7 +53,7 @@ Step 3:Create a role with the following properties.
   * Trusted entity – Lambda.
   * Role name – lambda-apigateway-role.
   * Permissions – Custom policy with permission to DynamoDB and CloudWatch Logs. This custom policy has the permissions that the function needs to write data to DynamoDB and upload logs.
-```python
+```json
 {
 "Version": "2012-10-17",
 "Statement": [
@@ -94,16 +94,16 @@ Step 3:Create a role with the following properties.
     
     ![Lambda function setup](./images/Lambda%20Function%20Setup.png)
  5. Replace the boilerplate coding with the following code snippet and click "Save"
- ```json
- from __future__ import print_function
+```python
+from __future__ import print_function
 
- import boto3
- import json
+import boto3
+import json
 
- print('Loading function')
+print('Loading function')
 
 
- def lambda_handler(event, context):
+def lambda_handler(event, context):
     '''Provide an event that contains the following keys:
 
       - operation: one of the operations in the operations dict below
@@ -131,7 +131,7 @@ Step 3:Create a role with the following properties.
         return operations[operation](event.get('payload'))
     else:
         raise ValueError('Unrecognized operation "{}"'.format(operation))
- ```
+```
 ![Lambda Function Code](./images/Lambda%20function%20code.png) 
 **Test Lambda Function**
 Let's test our newly created function. We haven't created DynamoDB and the API yet, so we'll do a sample echo operation. The function should output whatever input we pass.
